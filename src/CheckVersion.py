@@ -28,7 +28,7 @@ result = ''
 version = '1.8.2'
 
 def ver_check():
-	print(G + '[+]' + C + ' Checking the AdminHack for updates....', end='')
+	print(G + '[+]' + C + ' Checking the DXD for updates....', end='')
 	ver_url = 'https://raw.githubusercontent.com/mishakorzik/AdminHack/main/src/Version.txt'
 	try:
 		ver_rqst = requests.get(ver_url)
